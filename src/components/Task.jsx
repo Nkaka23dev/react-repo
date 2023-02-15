@@ -8,8 +8,10 @@ export default function Task(props) {
         <h1 className="text-gray-700 text-sm">{props.taskInput}</h1>
         <div className="flex gap-2">
           <img  className="cursor-pointer" src={edit} alt="" />
-          <img className="cursor-pointer"  src={remo} alt="" />
+          <img onClick={() => props.deleteUser(props.id)} className="cursor-pointer" src={remo} alt="" />
         </div>
       </div>
   )
 }
+
+
