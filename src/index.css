@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; 
+
+body{
+  background-color: hsl(206, 33%, 96%);
+}
+.h{
+  color: #f15f5f;
+}
