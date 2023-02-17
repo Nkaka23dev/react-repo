@@ -1,10 +1,12 @@
 import { useState, useEffect } from "react";
 import "./App.css";
+import HelloWord from "./components/HelloWord";
 
 function App() {
   return (
-    <div>
-      <Todo />
+    <div className="h-screen grid">
+      {/* <Todo /> */}
+      <HelloWord/>
     </div>
   );
 }
