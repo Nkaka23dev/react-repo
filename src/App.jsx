@@ -1,13 +1,19 @@
 import { useState, useEffect } from "react";
 import "./App.css";
+import Click from "./components/Click";
 import HelloWord from "./components/HelloWord";
+import StateAndProps from "./components/StateAndProps";
 
 function App() {
   return (
-    <div className="h-screen grid">
-      {/* <Todo /> */}
+   <>
+    {/* <div className="h-screen grid">
+      <Todo /> 
       <HelloWord/>
-    </div>
+      <Click/>
+    </div> */}
+    <StateAndProps/>
+   </>
   );
 }
 
