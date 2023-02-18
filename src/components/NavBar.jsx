@@ -7,11 +7,11 @@ export default function NavBar() {
       <Link className="text-xl " to="/click">
         Click Button
       </Link>
-      <Link className="text-xl " to="/todo">
-        Todo
+      <Link className="text-xl " to="/state">
+        State and Props
       </Link>
-      <Link className="text-xl " to="/">
-        Home
+      <Link className="text-xl " to="/calc">
+        Calculator
       </Link>
       <Link className="text-xl " to="/todo">
         Todo

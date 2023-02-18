@@ -31,8 +31,6 @@ export default function Todo() {
       }
     }, [searchText]);
   
-    console.log(filteredResults);
-  
     const createTodo = (item) => {
       settasks([...tasks, { id: tasks.length + 1, ...item }]);
     };
