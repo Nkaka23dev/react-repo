@@ -46,6 +46,9 @@ export default function NavBar() {
       <Link className="text-lg " to="/quizz">
         Quizzical
       </Link>
+      <Link className="text-lg " to="/notes">
+        Notes
+      </Link>
     </div>
   );
 }
