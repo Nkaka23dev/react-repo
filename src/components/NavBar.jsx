@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
-    <div className="space-x-5 max-w-full mx-auto text-center py-3 bg-blue-600 text-white">
+    <div className="space-x-5 max-w-full relative z-50 mx-auto text-center py-3 bg-blue-600 text-white">
       <Link className="text-lg " to="/Hello">
         Hello World
       </Link>
@@ -22,6 +22,15 @@ export default function NavBar() {
       <Link to="list-custom-comp" className="text-lg">
         ListWithCustomComp
       </Link>
+      <Link to="form" className="text-lg">
+        Forms
+      </Link>
+      <Link className="text-lg " to="/json">
+        Rendering JSON
+      </Link>
+      <Link className="text-lg " to="/api">
+        Working Api
+      </Link>
       <Link className="text-lg " to="/calc">
         Calculator
       </Link>
@@ -33,6 +42,9 @@ export default function NavBar() {
       </Link>
       <Link className="text-lg " to="/tenzies">
         Tenzies
+      </Link>
+      <Link className="text-lg " to="/quizz">
+        Quizzical
       </Link>
     </div>
   );

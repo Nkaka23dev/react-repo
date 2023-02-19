@@ -1,30 +1,6 @@
 import React from 'react'
 
-export default function ListRenderCustomComp() {
-  const data = [{
-    name: "dog",
-    icon: "🐶",
-  },
-  {
-    name: "cat",
-    icon: "🐱",
-  },
-  {
-    name: "chicken",
-    icon: "🐔",
-  },
-  {
-    name: "cow",
-    icon: "🐮",
-  },
-  {
-    name: "sheep",
-    icon: "🛌",
-  },
-  {
-    name: "horse",
-    icon: "🏇",
-  },]
+export default function ListRenderCustomComp({data}) {
   return (
     <section className="h-screen grid">
     <ul className="mx-auto py-14">
