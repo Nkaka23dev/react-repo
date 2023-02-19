@@ -1,4 +1,4 @@
-# react-repo 
+# React-repo 
 
 ### This repo contains all exercises from React Curriculum from the GYM Rwanda.
 ### All exercices are in pages folder and related components are in Components
