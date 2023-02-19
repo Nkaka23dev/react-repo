@@ -3,7 +3,7 @@ import Task from "./Task";
 
 export default function Todo() {
   const [taskInput, settaskInput] = useState("");
-  const [taskList, setTaskList] = useState(null);
+  const [taskList, setTaskList] = useState([]);
 
   const getInput = (event) => {
     settaskInput(event.target.value);
@@ -30,7 +30,7 @@ export default function Todo() {
   const [todoToEdit, settodoToEdit] = useState();
 
   useEffect(() => {
-    const todos = localStorage.getItem("todos") || [];
+    const todos = localStorage.getItem("todos");
     if (todos) {
       setTaskList(JSON.parse(todos) || []);
     }
@@ -72,7 +72,6 @@ export default function Todo() {
           <input
             className="w-full bg-[#f1f5f8] px-5 py-1 rounded-lg placeholder-gray-400"
             type="text"
-            required
             value={taskInput}
             onChange={getInput}
             placeholder="e.g. eggs"
