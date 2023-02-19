@@ -6,9 +6,11 @@ export default function StateAndProps() {
     setCounter(prev => prev+=1)
   }
   return (
-   <div className='text-center'>
-    <h1>Button has been cliked {counter} times</h1>
+   <section className='h-screen grid'>
+    <div className='text-center m-auto'>
+    <h1 className='text-xl'>Button has been cliked {counter} times</h1>
     <button onClick={increaseCounter} className='px-10 py-3 bg-blue-400 mt-10 text-white'>Click the button</button>
    </div>
+   </section>
   )
 }

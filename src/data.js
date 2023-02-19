@@ -1,0 +1,1 @@
+export const data = ['dog', 'cat', 'chicken', 'cow', 'sheep', 'horse']
