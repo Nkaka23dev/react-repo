@@ -14,7 +14,7 @@ import ListMapping from "./pages/ListMapping";
 import ListMappingWithComp from "./pages/ListMappingWithComp";
 import Form from "./pages/Form";
 import RenderJSON from "./pages/RenderJSON";
-import WorkingApi from "./pages/workingApi";
+import WorkingApi from "./pages/WorkingApi";
 import Quizz from "./pages/Quizz";
 import Questions from "./pages/Questions";
 
