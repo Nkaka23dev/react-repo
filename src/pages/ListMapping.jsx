@@ -1,7 +1,6 @@
-import React from "react";
 import { data } from "../data";
 
-export default function ListMapping() {
+const  ListMapping = () => {
   return (
     <section className="h-screen grid">
       <ul className="mx-auto py-14">
@@ -12,3 +11,4 @@ export default function ListMapping() {
     </section>
   );
 }
+export default ListMapping

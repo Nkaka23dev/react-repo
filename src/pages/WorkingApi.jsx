@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import ApiComp from "../components/ApiComp";
 
-export default function WorkingApi() {
+const WorkingApi = ()  => {
   const [data, setData] = useState([]);
 
   const getData = () => {
@@ -35,3 +35,4 @@ export default function WorkingApi() {
     </div>
   );
 }
+export default WorkingApi;

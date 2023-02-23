@@ -1,5 +1,5 @@
 import React from "react";
-export default function JSONComp({data}) {
+export default function JsonList({data}) {
   return (
     <section className="h-screen grid">
       <div className="max-w-5xl grid grid-cols-2 gap-5 w-full m-auto p-8 bg-[#E1F7DD]">

@@ -1,10 +1,8 @@
-import React from "react";
-import ApiComp from "../components/ApiComp";
-import JSONComp from "../components/JSONComp";
+import JsonList from "../components/JsonList";
 import { Jsondata } from "../data";
 
 export default function RenderJSON() {
   return (
-   <JSONComp data={Jsondata}/>
+   <JsonList data={Jsondata}/>
   );
 }
