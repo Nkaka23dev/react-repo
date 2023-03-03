@@ -3,14 +3,13 @@ import Task from "./Task";
 
 export default function Todo() {
   const [taskInput, settaskInput] = useState("");
-  const [taskList, setTaskList] = useState(null);
+  const [taskList, setTaskList] = useState([]);
 
   const getInput = (event) => {
     settaskInput(event.target.value);
   };
   const deleteUser = (id) => {
     setTaskList(taskList.filter((value) => value.id !== id));
-    console.log(taskList);
   };
   const addTask = () => {
     const task = {
@@ -56,7 +55,7 @@ export default function Todo() {
     <section className="px-3 mt-40">
       <div className="max-w-[36] w-[36rem] mx-auto bg-white shadow-2xl space-y-10 grid py-16 px-8">
         <h1 className="mx-auto text-2xl tracking-wide text-gray-600 font-bold">
-          Grocery Bud
+          TODOS
         </h1>
 
         <form
