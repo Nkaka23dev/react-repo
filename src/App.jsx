@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Todo from "./pages/Todo";
+import Todo from "./pages/Todo2";
 import NavBar from "./components/NavBar";
 import StateAndProps from "./pages/StateAndProps";
 import Calculator from "./pages/Calculator";
